@@ -1,0 +1,144 @@
+div.storrelsevindu{
+    position:absolute;
+    width: 100%;
+    height:1500px;
+
+}
+
+div.banner{
+    position:absolute;
+    width: 93%;
+    height: 100 px;
+    top: 0px;
+    left: 20px;
+}
+
+div.oversikt{
+    /*position:fixed;*/
+    position:absolute;
+    background-color: white ;
+    width:200px;
+    height:500px;
+    left: 20px;
+    top:150px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 3px 3px 3px 2px #888888;   
+}
+
+div.gruppeinfo{
+    position:absolute;
+    background-color: white;
+    width:35%;
+    height:500px;
+    top: 150px;
+    left:275px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 3px 3px 3px 2px #888888;
+}
+
+div.prosjektinfo{
+    position:absolute;
+    background-color: white;
+    width:35%;
+    height:500px;
+    top: 150px;
+    left:900px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 3px 3px 3px 2px #888888;
+}
+
+div.gulboks{
+    position:absolute;
+    background-color: yellow;
+    top:750px;
+    height:500px;
+    width:76%;
+    left:275px;
+    border: 5px;
+}
+
+div.reviews{
+    position:absolute;
+    color: yellow;
+    width:1000px;
+    height:1000px;
+    top:150px;
+    left:275px;
+    border: 5px;
+}
+div.hjemknapp{
+    position:absolute;
+    top:20px;
+    left:25px;
+    width:10%;
+    border: 1px;
+    border-radius: 10px;
+}
+div.vipps{
+    align-content: middle;
+    border-radius: 10px;
+
+}
+
+body.bakgrunn{
+    background-color: white;
+}
+div.tittel1{
+    font-size: large;
+}
+
+img.gruppebilde{
+    position: relative;
+    width: 75%;
+    height: 90%;
+    left: 10%;
+       
+
+}
+img.portrettbilde{
+    position: relative;
+    width: 100%;
+    height: 100%
+    
+}
+img.avatarLink{
+    border-radius: 50%;
+    width: 50px;
+    height: 30px;
+}
+img.knapphjem{
+    position: relative;
+    width: 60%;
+    height: 60%;
+}
+.tekst1{
+    font-size: 50px;
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color:white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color:grey;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.button3 {border-radius: 8px;}
