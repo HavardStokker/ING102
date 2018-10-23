@@ -54,14 +54,6 @@
     width: 10px; 
 }
 
-.innholdsfortegnelse{
-    position:absolute;
-    width:200px;
-    height:215px;
-    top:42%;
-    padding: 10px;
-    /*box-shadow: 3px 3px 3px 2px #888888; */  
-}
 .biSide{
     position:absolute;
     left:225px;
@@ -185,23 +177,23 @@ a:active {
 }
 
 
-a1:link {
-    color: black;
+a.a1:link {
+    color: black !important;
     background-color: transparent;
     text-decoration: none;
 }
-a1:visited {
-    color:black;
+a.a1:visited {
+    color:black !important;
     background-color: transparent;
     text-decoration: none;
 }
-a1:hover {
-    color:grey;
+a.a1:hover {
+    color:grey !important;
     background-color: transparent;
     text-decoration: underline;
 }
-a1:active {
-    color: blue;
+a.a1:active {
+    color: blue !important;
     background-color: transparent;
     text-decoration: underline;
 }
@@ -211,6 +203,14 @@ a1:active {
     position: fixed;
     top:1%;
     height:10%;
+    width:99%;
+    filter: alpha(opacity=100);
+}
+.bannerBiside{
+    position: fixed;
+    background-color: white; 
+    top:0px;
+    height:70px;
     width:99%;
     filter: alpha(opacity=100);
 }
@@ -224,15 +224,29 @@ a1:active {
 }
 
 .innholdsfortegnelse{
-    position:absolute;
+    position:fixed;
     width:200px;
     height:215px;
     top:42%;
     padding: 10px;
     /*box-shadow: 3px 3px 3px 2px #888888; */  
 }
-
-
+/*siden med xml sin ekstra stiler*/
+.divxml{
+    margin: 10%;
+}
+.svartTekst:visited{
+    color: black;
+}
+.littLuft{
+    margin-top: 10px; 
+}
+td.tabellAlign{
+   width: 25%; 
+}
+th.tabellAlign{
+    width:25%;
+}
 
 
 
@@ -264,3 +278,4 @@ img.knapphjem{
     width: 60%;
     height: 60%;
 }
+
