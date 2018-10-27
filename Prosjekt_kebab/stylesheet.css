@@ -231,6 +231,24 @@ a.a1:active {
     padding: 10px;
     /*box-shadow: 3px 3px 3px 2px #888888; */  
 }
+.boksOmOss{
+    position:absolute;
+    left:225px;
+    top:15%;
+    width: 80%;
+    height: 45%;
+    background-color:white;
+    border: 2px solid black;
+}
+boksOmOss2{
+    position: relative;;
+    left:230px;
+    top:15%;
+    width: 79%;
+    height: 44%;
+    background-color:yellow;
+}
+
 /*siden med xml sin ekstra stiler*/
 .divxml{
     margin: 10%;
@@ -275,7 +293,6 @@ img.portrettbilde{
 }
 img.knapphjem{
     position: relative;
-    width: 60%;
-    height: 60%;
+    width: 55%;
+    height: 55%;
 }
-
