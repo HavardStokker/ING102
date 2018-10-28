@@ -248,6 +248,9 @@ boksOmOss2{
     height: 44%;
     background-color:yellow;
 }
+.margOss{
+    margin: 20px;
+}
 
 /*siden med xml sin ekstra stiler*/
 .divxml{
