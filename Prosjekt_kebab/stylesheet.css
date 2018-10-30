@@ -177,6 +177,14 @@
     padding: 10px;
     height:150px;
 }
+.omossTxt{
+    position: relative;
+}
+.bilde_omoss{
+    margin-right: 20px;
+    float: left;
+    clear: both;
+}
 .slagord{
     position:absolute;
     top: 54%;
@@ -292,38 +300,35 @@ a.a1:active {
 }
 .boksOmOss{
     position:absolute;
+    padding: 10px;
     left:225px;
-    top:15%;
+    margin-left: 20px;
+    top:80px;
     width: 80%;
-    height: 45%;
+    height: 400px;
     background-color:white;
     border: 2px solid black;
+    border-radius: 5px;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> e8cd7315a980120b7f80c8d2d343b4530f132a99
 .margOss{
     margin: 20px;
 }
-.knappLastNed{
+.knapp{
     position: fixed;
     left: 35px;
-    top: 15%;
-    width: 10%;
-    height: 7%;
+    width: 190px;
+    height: 70px;
     border: 2px solid black;
+    border-radius: 5px;
+}
+.knappLastNed{
+    top: 80px;
 }
 .knappLastNed:hover{
     background-color: chartreuse;
 }
 .knappLast{
-    position: fixed;
-    left: 35px;
-    top: 23%;
-    width: 10%;
-    height: 7%;
-    border: 2px solid black;
+    top: 170px;
 }
 .knappLast:hover{
     background-color: chartreuse;
@@ -332,6 +337,7 @@ a.a1:active {
 /*siden med xml sin ekstra stiler*/
 .divxml{
     margin: 10%;
+    margin-left: 220px;
 }
 .svartTekst:visited{
     color: black;
