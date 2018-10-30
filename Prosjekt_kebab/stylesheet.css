@@ -60,15 +60,15 @@
     top:15%;
     width: 80%;
     height: 45%;
-    background-color: yellow;
+    
 }
 .sjappe1{
     position: absolute;
     left:0px;
     height:80%;
     top:0px;
-    width: 33%;
-    background-color: red;
+    width: 32%;
+   
 }
 .sjappe11{
     position: absolute;
@@ -76,15 +76,15 @@
     height:20%;
     top:80%;
     width: 33%;
-    background-color:green;
 }
 .sjappe2{
     position:absolute;
     left:33%;
     height:80%;
     top:0px;
-    width: 34%;
-    background-color: green;
+    width: 33%;
+
+   
 }
 .sjappe22{
     position: absolute;
@@ -92,15 +92,16 @@
     height:20%;
     top:80%;
     width: 34%;
-    background-color:blue;
+    
 }
 .sjappe3{
     position:absolute;
     left:67%;
     height:80%;
     top:0px;
-    width: 33%;
-    background-color: blue;
+    width: 32%;
+ 
+ 
 }
 .sjappe33{
     position: absolute;
@@ -108,7 +109,65 @@
     height:20%;
     top:80%;
     width: 33%;
-    background-color:red;
+  
+}
+.biSide1{
+    position:absolute;
+    left:225px;
+    top:15%;
+    width: 80%;
+    height: 45%;
+    top: 70%;
+    
+}
+.sjappe4{
+    position: absolute;
+    left:0px;
+    height:80%;
+    top:0px;
+    width: 32%;
+   
+}
+.sjappe44{
+    position: absolute;
+    left:0px;
+    height:20%;
+    top:80%;
+    width: 33%;
+}
+.sjappe5{
+    position:absolute;
+    left:33%;
+    height:80%;
+    top:0px;
+    width: 33%;
+
+   
+}
+.sjappe55{
+    position: absolute;
+    left:33%;
+    height:20%;
+    top:80%;
+    width: 34%;
+    
+}
+.sjappe6{
+    position:absolute;
+    left:67%;
+    height:80%;
+    top:0px;
+    width: 32%;
+ 
+ 
+}
+.sjappe66{
+    position: absolute;
+    left:67%;
+    height:20%;
+    top:80%;
+    width: 33%;
+  
 }
 .omoss{
     position: absolute;
@@ -240,14 +299,7 @@ a.a1:active {
     background-color:white;
     border: 2px solid black;
 }
-boksOmOss2{
-    position: relative;;
-    left:230px;
-    top:15%;
-    width: 79%;
-    height: 44%;
-    background-color:yellow;
-}
+
 .margOss{
     margin: 20px;
 }
