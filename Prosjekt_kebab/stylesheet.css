@@ -240,16 +240,30 @@ a.a1:active {
     background-color:white;
     border: 2px solid black;
 }
-boksOmOss2{
-    position: relative;;
-    left:230px;
-    top:15%;
-    width: 79%;
-    height: 44%;
-    background-color:yellow;
-}
 .margOss{
     margin: 20px;
+}
+.knappLastNed{
+    position: fixed;
+    left: 35px;
+    top: 15%;
+    width: 10%;
+    height: 7%;
+    border: 2px solid black;
+}
+.knappLastNed:hover{
+    background-color: chartreuse;
+}
+.knappLast{
+    position: fixed;
+    left: 35px;
+    top: 23%;
+    width: 10%;
+    height: 7%;
+    border: 2px solid black;
+}
+.knappLast:hover{
+    background-color: chartreuse;
 }
 
 /*siden med xml sin ekstra stiler*/
