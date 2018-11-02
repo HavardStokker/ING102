@@ -370,8 +370,8 @@ th.tabellAlign{
 /* hjemknapp*/
 .homeknapp{
     position: fixed;
-    top: 85%;
-    left: 2.5%;
+    bottom: 25px;
+    left: 35px;
 
 
 }
