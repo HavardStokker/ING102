@@ -335,6 +335,10 @@ a.a1:active {
 .knappLast:hover{
     background-color: chartreuse;
 }
+.divKebabListe{
+    margin: 10%;
+    margin-left: 220px;
+}
 
 /*siden med xml sin ekstra stiler*/
 .divxml{
