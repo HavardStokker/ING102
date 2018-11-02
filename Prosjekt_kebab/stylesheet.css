@@ -192,6 +192,17 @@
     top: 54%;
     left: 34%;
 }
+.reklame{
+position:absolute;
+padding: 10px;
+left: 0px;
+top: 450px;
+width: 1230px;
+height: 150px;
+border: 2px solid black;
+border-radius: 5px;
+
+}
 ul.a {
     list-style-type: square;
 }
